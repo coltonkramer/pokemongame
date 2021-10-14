@@ -339,11 +339,14 @@ function compare(baseData,baseData2){
 //
 function youWin(baseData){
     window.alert(baseData.name + ' won! YEAHH!')
+    challenger();
 
 }
 
 function youLose(baseData){
-    window.alert(baseData.name + ' lost wah wah')
+    window.alert(baseData.name + ' fainted')
+    playerPokemon();
+    challenger();
 }
 
 
