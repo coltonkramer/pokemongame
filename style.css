@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+h1, h2 {
+    font-family: 'Righteous', cursive;
+    padding-top: 15px;
+    padding-bottom: 45px;
+    font-size: 3em;
+}
+
+li, span {
+    font-family: 'Righteous', cursive;
+    font-size: 1.5em;
+}
+
+main {
+    /* width: 500px; */
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+button{
+    border-radius: 20px;
+    border: none;
+    background:#F93318;
+    height: 50px;
+    padding: 30px;
+    line-height: 5px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: -5px;
+}
+
+.header{
+    background-color:#F93318;
+}
+
+.side-by-side {
+    display: flex;
+}
+
+.side-by-side h2 {
+    color: rgb(212, 211, 211);
+}
+
+.image{
+    height: 300px;
+    width: auto;
+}
+
+
+.you{
+    height: autox;
+    width: 50%;
+    padding-top: 30px;
+    padding-bottom: 45px;
+    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/2fb2821a-1406-4a1d-9b04-6668f278e944/d874gjl-59e79083-fec5-4234-8879-2aa8afd7f9f4.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvMmZiMjgyMWEtMTQwNi00YTFkLTliMDQtNjY2OGYyNzhlOTQ0XC9kODc0Z2psLTU5ZTc5MDgzLWZlYzUtNDIzNC04ODc5LTJhYThhZmQ3ZjlmNC5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.UMFdXoCcqHSZ0U3dFWt8351ncIACJOCM9Zrb_tBzx90');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+}
+
+.enemy{
+    width: 50%;
+    text-align: center;
+    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/2fb2821a-1406-4a1d-9b04-6668f278e944/d874gjl-59e79083-fec5-4234-8879-2aa8afd7f9f4.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvMmZiMjgyMWEtMTQwNi00YTFkLTliMDQtNjY2OGYyNzhlOTQ0XC9kODc0Z2psLTU5ZTc5MDgzLWZlYzUtNDIzNC04ODc5LTJhYThhZmQ3ZjlmNC5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.UMFdXoCcqHSZ0U3dFWt8351ncIACJOCM9Zrb_tBzx90');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+}
+
+.dark{
+    background-color:rgb(36, 33, 33);
+}
